@@ -1,3 +1,4 @@
+import java.util.*;
 public class Compress {
     public static String compress(String str)
     {
@@ -20,8 +21,8 @@ public class Compress {
     }
     public static void main(String a[])
     {
-       
-        String str="aaabbcccdd";
+       Scanner sc= new Scanner(System.in);
+        String str= sc.nextLine();
         System.out.println(compress(str));
     }
 
